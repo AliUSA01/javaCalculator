@@ -13,4 +13,15 @@ public class Apartment {
     int trees;
 
     int windows;
+
+
+    public Apartment(String newType, String newLocation, int newWalls, int newDoors, int newTrees, int newWindows) {
+       type = newType;
+       location = newLocation;
+       walls = newWalls;
+       doors = newDoors;
+       trees = newTrees;
+       windows = newWindows;
+
+    }
 }
